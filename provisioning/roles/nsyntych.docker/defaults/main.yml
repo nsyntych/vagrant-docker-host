@@ -1,0 +1,9 @@
+---
+
+docker_version: '17.09.0~ce-0~debian'
+
+docker_api_host: '0.0.0.0'
+docker_api_port: 2375
+docker_api_parameter: '-H tcp://{{ docker_api_host }}:{{ docker_api_port }}'
+
+docker_extra_parameters: ['{{ docker_api_parameter }}']

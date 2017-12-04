@@ -1,0 +1,14 @@
+---
+
+galaxy_info:
+  author: Nick Syntychakis
+  description: An Ansible role to install docker in Debian Stretch
+  license: MIT
+  min_ansible_version: 1.2
+  
+  platforms:
+  - name: Debian
+    versions:
+    - stretch
+
+dependencies: []
